@@ -1,0 +1,32 @@
+{
+  "name": "window.name",
+  "version": "0.0.0",
+  "description": "A module which exposes sessionStorage API for storing data in the window.name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unshiftio/window.name"
+  },
+  "keywords": [
+    "dom",
+    "dom-storage",
+    "name",
+    "sessionStorage",
+    "storage",
+    "storage",
+    "window",
+    "window.name"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unshiftio/window.name/issues"
+  },
+  "homepage": "https://github.com/unshiftio/window.name",
+  "dependencies": {
+    "querystringify": "0.0.x"
+  }
+}
