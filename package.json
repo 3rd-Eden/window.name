@@ -1,6 +1,6 @@
 {
   "name": "window.name",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A module which exposes sessionStorage API for storing data in the window.name",
   "main": "index.js",
   "scripts": {
