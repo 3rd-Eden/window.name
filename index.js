@@ -11,6 +11,8 @@ var has = Object.prototype.hasOwnProperty
  * @api private
  */
 function update() {
+  if (!windowStorage.supported) return;
+
   var data = window.name.charAt(0) === prefix ? window.name : ''
     , length = 0
     , key;
