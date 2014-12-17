@@ -97,7 +97,7 @@ var windowStorage = module.exports = {
    * @public
    */
   supported: (function supported() {
-    return 'object' === typeof window && 'string' === window.name;
+    return 'object' === typeof window && 'string' === typeof window.name;
   }())
 };
 
