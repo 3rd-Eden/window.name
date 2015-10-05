@@ -1,6 +1,6 @@
 {
   "name": "window.name",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A module which exposes sessionStorage API for storing data in the window.name",
   "main": "index.js",
   "scripts": {
@@ -31,10 +31,10 @@
   },
   "homepage": "https://github.com/unshiftio/window.name",
   "devDependencies": {
-    "assume": "1.1.x",
+    "assume": "1.3.x",
     "istanbul": "0.3.x",
-    "mocha": "2.1.x",
-    "pre-commit": "1.0.x"
+    "mocha": "2.3.x",
+    "pre-commit": "1.1.x"
   },
   "dependencies": {
     "querystringify": "0.0.x"
