@@ -13,13 +13,18 @@ var has = Object.prototype.hasOwnProperty
 function update() {
   if (!windowStorage.supported) return;
 
-  var data = window.name.charAt(0) === prefix ? window.name : ''
+  var data = window.name
     , length = 0
     , key;
 
-  storage = qs.parse(data.slice(1));
+  storage = data.charAt(0) === prefix
+    ? qs.parse(data.slice(1))
+    : {};
 
-  for (key in storage) length++;
+  for (key in storage) {
+    if (has.call(storage, key)) length++;
+  }
+
   windowStorage.length = length;
 }
 
