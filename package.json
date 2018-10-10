@@ -37,6 +37,6 @@
     "pre-commit": "~1.2.0"
   },
   "dependencies": {
-    "querystringify": "~2.0.0"
+    "querystringify": "~2.1.0"
   }
 }
